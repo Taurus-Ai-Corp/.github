@@ -1,3 +1,9 @@
+<!-- TAURUS AI Badges -->
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Taurus-Ai-Corp?style=flat-square&logo=github&color=EA4AAA)](https://github.com/sponsors/Taurus-Ai-Corp)
+[![License](https://img.shields.io/badge/License-FSL%201.1-blue?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/badge/Website-taurusai.io-green?style=flat-square)](https://taurusai.io)
+<!-- /TAURUS AI Badges -->
+
 # TAURUS AI Corp - Organization Profile
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/Taurus-Ai-Corp?style=for-the-badge&logo=github&color=EA4AAA)](https://github.com/sponsors/Taurus-Ai-Corp)
@@ -47,3 +53,19 @@ Support TAURUS AI development:
 ---
 
 **Website:** [taurusai.io](https://taurusai.io) | **Email:** admin@taurusai.io
+
+
+---
+
+## 💖 Support This Project
+
+If you find this project useful, please consider sponsoring:
+
+[![Sponsor TAURUS AI](https://img.shields.io/badge/Sponsor-TAURUS%20AI-EA4AAA?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/Taurus-Ai-Corp)
+
+Your sponsorship helps us maintain and improve our open-source projects.
+
+---
+
+**TAURUS AI Corp** | [Website](https://taurusai.io) | [GitHub](https://github.com/Taurus-Ai-Corp) | [Contact](mailto:admin@taurusai.io)
+
