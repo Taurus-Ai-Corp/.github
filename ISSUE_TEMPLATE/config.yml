@@ -1,0 +1,20 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sponsor This Project
+    url: https://github.com/sponsors/Taurus-Ai-Corp
+    about: Support TAURUS AI development with a sponsorship. Bronze+ sponsors receive priority support.
+  - name: Priority Support (Bronze+)
+    url: https://github.com/sponsors/Taurus-Ai-Corp
+    about: Bronze+ sponsors receive 24-hour response SLA for bug fixes and priority feature consideration.
+  - name: Security Vulnerability
+    url: https://github.com/Taurus-Ai-Corp/.github/blob/main/SECURITY.md
+    about: Report security vulnerabilities privately via our security policy.
+  - name: Discord Community
+    url: https://discord.gg/taurusai
+    about: Get help from the community and TAURUS AI team.
+  - name: Enterprise Inquiries
+    url: mailto:enterprise@taurusai.io
+    about: For enterprise licensing, custom solutions, and strategic partnerships.
+  - name: Documentation
+    url: https://taurusai.io/docs
+    about: Check our documentation before opening an issue.

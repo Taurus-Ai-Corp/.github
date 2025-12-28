@@ -1,0 +1,137 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for TAURUS AI projects
+title: "[FEATURE]: "
+labels: ["enhancement", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! We appreciate your input in making TAURUS AI products better.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which TAURUS AI project is this feature request for?
+      options:
+        - QuantumShield (quantumshield-hedera-hackathon)
+        - Q-GRID
+        - PropertyVet (propertyvet-background-system)
+        - TAURUS AI SaaS (taurus-ai-saas)
+        - BizFlow CI (taurus-bizflow-competitive-intelligence)
+        - AssetGrid Demo (taurus-assetgrid-demo-portal)
+        - QuantumRupee Demo (quantumrupee-demo-public)
+        - New Project Idea
+        - Cross-Project Feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: A clear and concise description of what the problem is. Ex. I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like
+      placeholder: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or features you've considered.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: What type of feature is this?
+      options:
+        - New Feature
+        - Enhancement to Existing Feature
+        - Performance Improvement
+        - Developer Experience
+        - Documentation
+        - Security Enhancement
+        - Quantum Cryptography
+        - AI/ML Capabilities
+        - Blockchain/DLT Integration
+        - UI/UX Improvement
+        - API Enhancement
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Critical (blocking my use case)
+        - High (significantly improves my workflow)
+        - Medium (nice to have)
+        - Low (minor improvement)
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Describe your use case and how this feature would help you.
+      placeholder: |
+        As a [type of user], I want [goal] so that [benefit].
+
+        Example: As an enterprise developer, I want quantum-resistant API signatures so that my application is future-proofed against quantum attacks.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or screenshots about the feature request.
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you be willing to contribute to this feature?
+      options:
+        - label: I would be willing to submit a PR for this feature
+        - label: I would be willing to help test this feature
+        - label: I would be willing to help document this feature
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't already been requested
+          required: true
+        - label: I have provided a clear use case for this feature
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## Want Priority Feature Consideration?
+
+        [Bronze+ sponsors](https://github.com/sponsors/Taurus-Ai-Corp) get priority feature request consideration and can vote on feature prioritization.
+
+        [Gold+ sponsors](https://github.com/sponsors/Taurus-Ai-Corp) get features added to the top of our roadmap.
+
+        [View sponsorship tiers →](https://github.com/Taurus-Ai-Corp/.github/blob/main/SPONSORS.md)

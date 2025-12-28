@@ -1,0 +1,128 @@
+name: Bug Report
+description: File a bug report for TAURUS AI projects
+title: "[BUG]: "
+labels: ["bug", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible to help us investigate.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which TAURUS AI project is this bug report for?
+      options:
+        - QuantumShield (quantumshield-hedera-hackathon)
+        - Q-GRID
+        - PropertyVet (propertyvet-background-system)
+        - TAURUS AI SaaS (taurus-ai-saas)
+        - BizFlow CI (taurus-bizflow-competitive-intelligence)
+        - AssetGrid Demo (taurus-assetgrid-demo-portal)
+        - QuantumRupee Demo (quantumrupee-demo-public)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please provide your environment details
+      placeholder: |
+        - OS: [e.g., macOS 14.0, Windows 11, Ubuntu 22.04]
+        - Node.js version: [e.g., 20.10.0]
+        - Python version: [e.g., 3.12.0]
+        - Browser: [e.g., Chrome 120, Firefox 121]
+        - Project version: [e.g., 1.0.0]
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code.
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical (system crash, data loss, security issue)
+        - High (major feature broken, no workaround)
+        - Medium (feature partially broken, workaround exists)
+        - Low (minor issue, cosmetic problem)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to ensure this bug hasn't already been reported
+          required: true
+        - label: I have provided all the required information above
+          required: true
+        - label: I am using a supported version of the project
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## Need Priority Support?
+
+        [Bronze+ sponsors](https://github.com/sponsors/Taurus-Ai-Corp) receive 24-hour response SLA for bug reports.
+
+        [View sponsorship tiers →](https://github.com/Taurus-Ai-Corp/.github/blob/main/SPONSORS.md)
