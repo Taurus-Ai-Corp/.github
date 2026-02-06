@@ -1,125 +1,99 @@
 <div align="center">
 
-# TAURUS AI Corp
+# Q-GRID -- Quantum as a Service
 
-### Enterprise AI Orchestration & Quantum-Resistant Blockchain Infrastructure
+### Enterprise quantum-safe AI infrastructure on Hedera Hashgraph
 
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-TAURUS%20AI-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/Taurus-Ai-Corp)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/taurusai)
-[![Website](https://img.shields.io/badge/Website-taurusai.io-blue?style=for-the-badge)](https://taurusai.io)
+[![NIST PQC](https://img.shields.io/badge/NIST-FIPS%20203%20%7C%20204-003366?style=flat-square)](https://csrc.nist.gov/pubs/fips/203/final)
+[![SWIFT 2027](https://img.shields.io/badge/SWIFT-2027%20Ready-FF6600?style=flat-square)](https://www.swift.com)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-003399?style=flat-square)](https://artificialintelligenceact.eu)
+[![Hedera](https://img.shields.io/badge/Hedera-Hashgraph-8259EF?style=flat-square&logo=hedera)](https://hedera.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-**$7.8B Market Opportunity** | **First-Mover in Quantum-Resistant Blockchain** | **NIST FIPS 204 Compliant**
+[q-grid.net](https://q-grid.net) | [taurusai.io](https://taurusai.io) | [admin@taurusai.io](mailto:admin@taurusai.io)
 
 </div>
 
 ---
 
-## Securing Tomorrow's Digital Assets Today
-
-TAURUS AI Corp builds enterprise-grade automation tools, AI orchestration platforms, and quantum-resistant blockchain infrastructure. Our solutions protect digital assets against the emerging quantum computing threat while delivering immediate business value.
-
-### The Quantum Threat is Real
-
-- **2028-2030**: RSA-2048 & ECC-256 will be breakable by quantum computers
-- **SWIFT Mandate 2027**: Financial institutions must adopt PQC in 24 months
-- **0%** of NFT marketplaces currently use quantum-resistant signatures
-- **We're changing that.**
+The world's first enterprise platform combining post-quantum cryptography (ML-DSA, ML-KEM) + distributed ledger technology (Hedera Hashgraph) + autonomous AI compliance agents.
 
 ---
 
-## Featured Projects
+## Platform Modules
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**QuantumShield**](https://github.com/Taurus-Ai-Corp/quantumshield-hedera-hackathon) | World's first quantum-resistant NFT infrastructure on Hedera | JavaScript, ML-DSA, FIPS 204 |
-| [**Q-GRID**](https://github.com/Taurus-Ai-Corp/Q-GRID) | Enterprise AI orchestration with post-quantum cryptography | TypeScript, ML-KEM, FIPS 203 |
-| [**PropertyVet**](https://github.com/Taurus-Ai-Corp/propertyvet-background-system) | AI-powered background check SaaS platform | Python, FastAPI, React |
-| [**TAURUS AI SaaS**](https://github.com/Taurus-Ai-Corp/taurus-ai-saas) | Full-stack AI platform with Hedera blockchain integration | TypeScript, Next.js 15, React 19 |
-| [**BizFlow CI**](https://github.com/Taurus-Ai-Corp/taurus-bizflow-competitive-intelligence) | Real-time competitive intelligence with MCP agents | JavaScript, Express, Socket.IO |
-| [**QuantumRupee**](https://github.com/Taurus-Ai-Corp/quantumrupee-demo-public) | RBI Harbinger 2025 quantum-resistant CBDC demo | JavaScript, Hedera |
-
----
-
-## Why TAURUS AI?
-
-### Technical Excellence
-
-- **Quantum-Ready**: Production ML-DSA (FIPS 204) & ML-KEM (FIPS 203) implementations
-- **Enterprise-Grade**: Built for Fortune 500 deployment with $17M+ revenue target
-- **First-Mover**: Only quantum-resistant solution on Hedera Hashgraph
-- **Multi-Chain**: Cross-chain bridge with quantum-secured signatures
-
-### Business Value
-
-- **455% ROI** demonstrated in enterprise deployments
-- **96%+ accuracy** AI-powered assessments
-- **15-30 minute** processing vs 24-48 hour industry standard
-- **SWIFT 2027** compliance ready
+| Module | Product | What It Does | Status |
+|--------|---------|--------------|--------|
+| **Q-GRID Comply** | GRIDERA | Quantum compliance + EU AI Act automation | Live |
+| **Q-GRID Lend** | LendGrid | AI credit scoring + MSME lending | Live |
+| **Q-GRID Flow** | BizFlow | Agentic workflow orchestration | Module |
+| **Q-GRID Create** | NeoVibe | AI marketing automation | Module |
+| **Q-GRID Assets** | OrionGrid | Real-world asset tokenization | Module |
+| **Q-GRID Verify** | PropertyVet | AI background verification | Module |
+| **Q-GRID Pay** | GRID-PAY | Quantum-safe payments + CBDC readiness | Beta |
+| **Q-GRID Intel** | RegArb | Regulatory intelligence engine | Open Source |
+| **Q-GRID Research** | Dexter | Financial research CLI | Open Source |
 
 ---
 
-## Technology Stack
+## Key Numbers
 
-```
-Blockchain        Hedera Hashgraph, Solidity 0.8.19, HTS, HCS
-Quantum Crypto    ML-DSA (FIPS 204), ML-KEM (FIPS 203), AWS KMS
-AI/ML             Claude SDK, 24+ ML Agents, NVIDIA cuQuantum
-Frontend          Next.js 14/15, React 18/19, TypeScript, Tailwind
-Backend           FastAPI, Express.js, Node.js 20+, Python 3.12+
-Infrastructure    Docker, Vercel, GitHub Actions, PostgreSQL, Redis
-```
-
----
-
-## Sponsorship
-
-Your sponsorship helps us maintain and improve our open-source quantum-resistant infrastructure.
-
-| Tier | Monthly | Benefits |
-|------|---------|----------|
-| Supporter | $5 | Name in SPONSORS.md + Newsletter |
-| Backer | $25 | + README mention + Early access |
-| Bronze | $100 | + Logo + Priority support (24hr SLA) |
-| Silver | $500 | + Homepage logo + Strategic calls |
-| Gold | $2,000 | + Feature priority + Dedicated support |
-| Platinum | $5,000 | + Board seat + Co-development |
-
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/Taurus-Ai-Corp)
-[![Open Collective](https://img.shields.io/badge/Sponsor%20on-Open%20Collective-1f87ff?style=for-the-badge&logo=opencollective)](https://opencollective.com/taurus-ai)
-
-[View detailed sponsorship benefits](https://github.com/Taurus-Ai-Corp/.github/blob/main/SPONSORS.md)
+| | |
+|---|---|
+| **22 repositories** | 9 platform modules across the Q-GRID ecosystem |
+| **NIST FIPS 203/204** | Production ML-DSA signing + ML-KEM key encapsulation |
+| **10,000+ TPS** | Hedera Hashgraph throughput with 3-5 second finality |
+| **0.00017 kWh/tx** | Carbon-negative ledger operations |
+| **3 defensive publications** | ZK-KYC, offline CBDC, quantum fraud detection |
+| **Global presence** | Canada (HQ), Dubai (MENA), Wyoming (US), India |
 
 ---
 
-## Get Started
+## Flagship Repositories
 
-```bash
-# Clone any of our repositories
-git clone https://github.com/Taurus-Ai-Corp/quantumshield-hedera-hackathon.git
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-```
+| Repository | Description |
+|------------|-------------|
+| [**Q-GRID.NET**](https://github.com/Taurus-Ai-Corp/Q-GRID.NET) | Core orchestration engine and quantum-safe infrastructure |
+| [**taurus-ai-saas**](https://github.com/Taurus-Ai-Corp/taurus-ai-saas) | QaaS platform -- full-stack AI + Hedera integration |
+| [**LENDGRID**](https://github.com/Taurus-Ai-Corp/LENDGRID) | AI-powered lending and credit scoring platform |
+| [**GRID-PAY India**](https://github.com/Taurus-Ai-Corp/GRID-PAY-india) | Quantum-safe payments and CBDC infrastructure |
+| [**Q-GRID.CA**](https://github.com/Taurus-Ai-Corp/Q-GRID.CA) | Hackathon-winning quantum compliance platform |
+| [**quantumrupee-demo-public**](https://github.com/Taurus-Ai-Corp/quantumrupee-demo-public) | RBI Harbinger quantum-resistant CBDC demo |
 
 ---
 
-## Connect With Us
+## Open Source
 
-- **Website**: [taurusai.io](https://taurusai.io)
-- **Discord**: [Join our community](https://discord.gg/taurusai)
-- **Email**: admin@taurusai.io
-- **Enterprise**: enterprise@taurusai.io
-- **Sponsorship**: sponsors@taurusai.io
+We publish defensive research and developer tools under open-source licenses.
+
+- **Defensive Publications**: ZK-KYC identity verification, offline CBDC transaction protocols, quantum-resistant fraud detection -- published to establish prior art and prevent patent enclosure.
+- **Dexter CLI**: Autonomous financial research agent. Open source, MIT licensed.
+- **RegArb**: Regulatory intelligence engine for compliance monitoring.
+
+---
+
+## Pricing
+
+Q-GRID modules start at **$500/month**. Enterprise pricing available on request.
+
+Visit [q-grid.net](https://q-grid.net) for plans and documentation.
+
+---
+
+## Contact
+
+| | |
+|---|---|
+| **Email** | [admin@taurusai.io](mailto:admin@taurusai.io) |
+| **Platform** | [q-grid.net](https://q-grid.net) |
+| **Corporate** | [taurusai.io](https://taurusai.io) |
 
 ---
 
 <div align="center">
 
-**Building the quantum-secure future of digital assets**
+**Taurus AI Corp** -- Ontario, Canada
 
-[![Stars](https://img.shields.io/github/stars/Taurus-Ai-Corp?style=social)](https://github.com/Taurus-Ai-Corp)
+Quantum-safe infrastructure for financial services.
 
 </div>
