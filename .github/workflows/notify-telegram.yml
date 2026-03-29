@@ -1,0 +1,73 @@
+name: TAURUS AI Telegram Notifications
+
+on:
+  push:
+    paths:
+      - 'alerts/**'
+      - 'reports/daily/**'
+      - 'reports/weekly/**'
+      - 'reports/monthly/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get changed report/alert files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only HEAD~1 HEAD -- alerts/ reports/ 2>/dev/null || echo "")
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$FILES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Send Telegram notifications
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: |
+          [ -z "$CHANGED_FILES" ] && echo "No report files changed" && exit 0
+
+          send_telegram() {
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d "chat_id=${TELEGRAM_CHAT_ID}" \
+              -d "parse_mode=Markdown" \
+              -d "text=$1" \
+              -d "disable_web_page_preview=true" > /dev/null
+          }
+
+          echo "$CHANGED_FILES" | while IFS= read -r FILE; do
+            [ -z "$FILE" ] && continue
+            [ ! -f "$FILE" ] && continue
+
+            if [[ "$FILE" == alerts/crypto/* ]]; then
+              LABEL="CRYPTO ALERT"
+            elif [[ "$FILE" == alerts/infra/* ]]; then
+              LABEL="INFRA ALERT"
+            elif [[ "$FILE" == reports/daily/*briefing* ]]; then
+              LABEL="Morning Briefing"
+            elif [[ "$FILE" == reports/daily/*tasks* ]]; then
+              LABEL="Task Dashboard"
+            elif [[ "$FILE" == reports/weekly/* ]]; then
+              LABEL="Weekly Report"
+            elif [[ "$FILE" == reports/monthly/* ]]; then
+              LABEL="Monthly Report"
+            else
+              LABEL="Report Update"
+            fi
+
+            CONTENT=$(head -c 600 "$FILE" | tr '\n' ' ' | sed 's/  */ /g' | sed 's/[`]/./g')
+
+            MSG="*TAURUS AI — ${LABEL}*
+
+            ${CONTENT}...
+
+            View: https://github.com/Taurus-Ai-Corp/.github/blob/main/${FILE}"
+
+            send_telegram "$MSG"
+            sleep 1
+          done
