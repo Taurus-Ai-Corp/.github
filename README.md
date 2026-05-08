@@ -36,6 +36,19 @@ We use a **Triple-Plus Licensing Model**:
 
 [View Full Licensing Details →](docs/licensing/)
 
+### Web Automation Stack
+
+Org-wide standard for AI-driven web automation across all TAURUS repositories. Pick the right tool by task shape:
+
+| Task | Tool | License |
+|------|------|---------|
+| Static HTML scraping | `webclaw` | AGPL-3.0 |
+| JS-rendered scraping + search | `firecrawl` | AGPL self-host / hosted SaaS |
+| Browser interaction (click / fill / navigate) | `browser-use` | **MIT** |
+| Deterministic flows with known selectors | Playwright direct | Apache-2.0 |
+
+[View Full Routing Rules + AGPL Watch →](docs/AGENT_TOOLING.md)
+
 ### Contributing
 
 We welcome contributions! Before contributing, please:
@@ -43,6 +56,7 @@ We welcome contributions! Before contributing, please:
 1. Read our [Code of Conduct](CODE_OF_CONDUCT.md)
 2. Sign our [Contributor License Agreement](CLA.md)
 3. Review our [Contributing Guidelines](CONTRIBUTING.md)
+4. Follow the [Agent Tooling routing rules](docs/AGENT_TOOLING.md) for any web automation work
 
 ### Sponsor Us
 
