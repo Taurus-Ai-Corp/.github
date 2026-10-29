@@ -52,13 +52,13 @@ The world's first enterprise platform combining post-quantum cryptography (ML-DS
 ## Flagship Repositories
 
 | Repository | Description |
-|------------|-------------|
-| [**Q-GRID.NET**](https://github.com/Taurus-Ai-Corp/Q-GRID.NET) | Core orchestration engine and quantum-safe infrastructure |
-| [**taurus-ai-saas**](https://github.com/Taurus-Ai-Corp/taurus-ai-saas) | QaaS platform -- full-stack AI + Hedera integration |
-| [**LENDGRID**](https://github.com/Taurus-Ai-Corp/LENDGRID) | AI-powered lending and credit scoring platform |
-| [**GRID-PAY India**](https://github.com/Taurus-Ai-Corp/GRID-PAY-india) | Quantum-safe payments and CBDC infrastructure |
+|---|---|
+| [**GRIDERA**](https://github.com/Taurus-Ai-Corp/GRIDERA) | GRIDERA — Post-Quantum Compliance Platform. Scan. Comply. Migrate. ML-DSA-65 signing, Hedera HCS audit trails, EU AI Act compliance. By TAURUS AI Corp. |
+| [**GRIDERA Scan CLI**](https://github.com/Taurus-Ai-Corp/gridera-scan-cli) | GRIDERA Scan CLI — Standalone PQC vulnerability scanner. Scans SSL/TLS for quantum-vulnerable cryptography. NIST FIPS 203/204 compliance checker. |
+| [**GRIDERA Migrate**](https://github.com/Taurus-Ai-Corp/gridera-migrate) | GRIDERA Migrate — AI agent swarm engine for autonomous PQC codebase migration. Spawns ML-DSA-65 certified agents that refactor legacy crypto to post-quantum algorithms. |
+| [**GRIDERA\|Scan**](https://github.com/Taurus-Ai-Corp/quantum-readiness-scanner) | GRIDERA\|Scan — Open-source quantum-readiness assessment CLI. Scan your infrastructure for post-quantum cryptography vulnerabilities. NIST FIPS 203/204 compliance checker. |
+| [**MONAD \| Gate**](https://github.com/Taurus-Ai-Corp/MONAD-Gate-) | MONAD \| Gate is a permission-and-proof layer for autonomous agents on Monad. An agent wallet is bound on-chain to a human principal who remains liable, the principal sets a narrow action-and-spend policy, and the contract itself refuses anything outside it — the front-end cannot approve what the chain rejects. |
 | [**Q-GRID.CA**](https://github.com/Taurus-Ai-Corp/Q-GRID.CA) | Hackathon-winning quantum compliance platform |
-| [**quantumrupee-demo-public**](https://github.com/Taurus-Ai-Corp/quantumrupee-demo-public) | RBI Harbinger quantum-resistant CBDC demo |
 
 ---
 
